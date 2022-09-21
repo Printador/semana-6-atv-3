@@ -1,1 +1,26 @@
-.
+nota1 = prompt('Primeira nota: ')
+nota1 = eval (nota1)
+nota2 = prompt('Segunda nota: ')
+nota2 = eval (nota2)
+
+media = (nota1 + nota2) / 2
+
+console.log('Media: ', media)
+
+resultado = (media == 10) ? "VOCÊ PRECISA TIRAR UMA NOTA IGUAL O MAIOR QUE 1 NA PRÓXIMA PROVA" : "."
+console.log(resultado)
+
+resultado = (media == 9) ? "VOCÊ PRECISA TIRAR UMA NOTA IGUAL O MAIOR QUE 3 NA PRÓXIMA PROVA" : "."
+console.log(resultado)
+
+resultado = (media == 8) ? "VOCÊ PRECISA TIRAR UMA NOTA IGUAL O MAIOR QUE 5 NA PRÓXIMA PROVA" : "."
+console.log(resultado)
+
+resultado = (media == 7) ? "VOCÊ PRECISA TIRAR UMA NOTA IGUAL O MAIOR QUE 7 NA PRÓXIMA PROVA" : "."
+console.log(resultado)
+
+resultado = (media == 6) ? "VOCÊ PRECISA TIRAR UMA NOTA IGUAL O MAIOR QUE 9 NA PRÓXIMA PROVA" : "."
+console.log(resultado)
+
+resultado = (media <= 5) ? "REPROVADO" : "."
+console.log(resultado)
