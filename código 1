@@ -1,1 +1,14 @@
-.
+nota1 = prompt('Primeira nota: ')
+nota1 = eval (nota1)
+nota2 = prompt('Segunda nota: ')
+nota2 = eval (nota2)
+nota3 = prompt('Terceira nota: ')
+nota3 = eval (nota3)
+
+media = (nota1 + nota2 + nota3) / 3
+
+console.log('Media: ', media)
+
+resultado = (media >= 7) ? "APROVADO" : "REPROVADO"
+
+console.log(resultado)
